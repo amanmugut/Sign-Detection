@@ -1,0 +1,43 @@
+
+export const Border = {
+    small: {
+        borderWidth: 1,
+        borderColor: '#d0d0d0',
+    },
+    medium: {
+        borderWidth: 2,
+        borderColor: '#b0b0b0',
+    },
+    large: {
+        borderWidth: 3,
+        borderColor: '#909090',
+    },
+};
+
+// Color styles
+export const Color = {
+    primary: '#007bff',
+    secondary: '#6c757d',
+    success: '#28a745',
+    danger: '#dc3545',
+    warning: '#ffc107',
+    info: '#17a2b8',
+    light: '#f8f9fa',
+    dark: '#343a40',
+};
+
+// Font family styles
+export const FontFamily = {
+    regular: 'System',
+    bold: 'System-Bold',
+    italic: 'System-Italic',
+    boldItalic: 'System-BoldItalic',
+};
+
+// Font size styles
+export const FontSize = {
+    small: 12,
+    medium: 16,
+    large: 20,
+    xlarge: 24,
+};
